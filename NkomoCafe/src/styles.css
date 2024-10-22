@@ -18,7 +18,7 @@
     --h5-font-size: 1.25em;
     --h6-font-size: 1em;
 
-    --normal-font-weight: 400;
+    --normal-font-weight: 200;
     --bold-font-weight: 700;
 }
 
@@ -26,13 +26,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: var(--normal-font-weight);
+    font-family: var(--primary-font);
+    color: var(--text-color);
+}
+
+h1{
+    font-size: var(--h1-font-size);
+}
+
+h2{
+    font-size: var(--h2-font-size);
+}
+
+h3{
+    font-size: var(--h3-font-size);
+}
+
+
+h4{
+    font-size: var(--h4-font-size);
+}
+
+h5{
+    font-size: var(--h5-font-size);
 }
 
 body{
     background-color: var(--dark-background);
-    color: var(--text-color);
-    font-family: var(--primary-font);
-    font-size: var(--base-font-size);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
